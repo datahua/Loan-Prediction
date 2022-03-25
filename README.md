@@ -16,7 +16,7 @@ Data description:
   
 Purpose of this project for me is to implement the hyperparamters tuning, and different resampling techniques to get higher predictive accuracy, especially the predictive accuracy of event loan default (True Positive). The final accuracy achieved 85%, higher than the highest acc other users acheieved on kaggle (78%). Sample EDA work of mine can be read on [Here.](https://github.com/datahua/EDA-Visualziation-Text-Mining-with_R/blob/main/EDA%2BVisualziation%2BText%20Mining_R.pdf)
 
-**Good stuff I did with the project**
+**Good stuff I did with the Project**
 1. use *datatable* to fast load the dataset in only 3 sec
 2. Performed data standardization to ensure the internal consistency of entire dataset.
 3. Selected important 23 features out of 53, using their correlation along with the Boruta feature selection algorithm. It was slow when catboost model not being implemented. (I left my PC on for the entire night, the progress was still 0%. (default model was random forest) After I implemented catboost model, it only took 30 minutes.)
@@ -28,7 +28,7 @@ Purpose of this project for me is to implement the hyperparamters tuning, and di
 9. achieved final acc with untuned catboost model
 
 ---
-Possible improvement:
+**Possible improvement**:
 1. implementation of k-fold
 2. more permutations with hyperparameters
 3. implement certain regularization like lasso, ridge
